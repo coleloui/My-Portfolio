@@ -7,17 +7,45 @@
     <title>Louis Coleman</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3" style="background-color: #381c69; border-bottom-style: solid; border-color: gray;">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3"
+        style="background-color: #221BF2; border-bottom-style: solid; border-color: #092601;">
         <h5 class="my-0 mr-md-auto text-light font-weight-normal">Louis Coleman</h5>
         <nav class="nav my-2 my-md-0 mr-md-3">
-          <a class="p-2 text-light" href="index.html">About Me</a>
-          <a class="p-2 text-light" href="portfolio.html">Portfolio</a>
-          <a class="p-2 text-light" href="contact.html">Contact</a>
+            <a class="p-2 text-light" href="index.html">About Me</a>
+            <a class="p-2 text-light" href="portfolio.html">Portfolio</a>
+            <a class="p-2 text-light" href="contact.html">Contact</a>
         </nav>
-      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 text-light"
+                style="border-style: solid; border-color: #092601; padding-bottom: 5px; background-color: #E479F2;">
+                <h1 style="border-bottom: solid; border-color: #092601;">Contact Me</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Snow">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
