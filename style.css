@@ -1,29 +1,46 @@
+/* all pages */
 body {
   background-color: gray;
   color: #020F59;
 }
 
+/* index.html */
 h2 {
   border-bottom-style: solid;
   border-color: #567785;
 }
 
+/* portfolio.html */
 .card {
   border-style: solid;
   border-color: #567785;
   border-width: 3px;
 }
 
+/* contact.html */
+h1{
+  border-bottom: solid;
+  border-color: #567785;
+}
+
+/* all pages */
 #navbar {
   background-color: #84Cff0;
   border-bottom-style: solid;
   border-color: #567785;
 }
 
+/* index.html */
 #aboutme {
   border-style: solid;
   border-color: #567785;
   background-color: white;
-  "
+}
 
+/* contact.html */
+#contact {
+  border-style: solid;
+  border-color: #567785;
+  padding-bottom: 5px;
+  background-color: white;
 }
