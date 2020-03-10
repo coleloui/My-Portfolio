@@ -4,6 +4,10 @@ body {
   color: #020F59;
 }
 
+img{
+  width: 300px;
+}
+
 /* index.html */
 h2 {
   border-bottom-style: solid;
