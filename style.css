@@ -1,9 +1,21 @@
 /* all pages */
+html,body{
+  height: 100%;
+}
+
 body {
   background-color: gray;
   color: #020F59;
 }
 
+.footer{
+  padding-bottom: 25px;
+  background-color: #84Cff0;
+  border-top-style: solid;
+  border-color: #567785;
+}
+
+/* index.html */
 img{
   width: 300px;
 }
@@ -14,17 +26,17 @@ h2 {
   border-color: #567785;
 }
 
+/* contact.html */
+h1{
+  border-bottom: solid;
+  border-color: #567785;
+}
+
 /* portfolio.html */
 .card {
   border-style: solid;
   border-color: #567785;
   border-width: 3px;
-}
-
-/* contact.html */
-h1{
-  border-bottom: solid;
-  border-color: #567785;
 }
 
 /* all pages */
